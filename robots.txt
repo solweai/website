@@ -1,0 +1,17 @@
+# robots.txt for https://www.solwe.co.in
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /assets/
+Disallow: /_*
+
+# Sitemaps
+Sitemap: https://www.solwe.co.in/sitemap.xml
+
+# Common crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
